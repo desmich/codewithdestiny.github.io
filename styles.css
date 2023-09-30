@@ -69,8 +69,8 @@ button:hover {
     float: right;
     border-radius: 15px;
     text-align: center;
-    margin-top: 25px;
-    margin-right: 100px;
+    margin-top: 40px;
+    margin-right: 225px;
 }
 
 .blurb {
@@ -79,8 +79,20 @@ button:hover {
 
 .intro-2 {
     background-color:#65a765;
-    width: 700px;
+    width: 650px;
     border-radius: 15px;
     text-align: center;
     float: right;
+    margin-top: -300px;
+    margin-right: 110px;
+}
+
+.intro-3 {
+    background-color: #65a765;
+    width: 650px;
+    text-align: center;
+}
+
+.big-blurb {
+
 }
