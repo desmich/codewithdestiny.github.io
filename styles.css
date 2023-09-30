@@ -1,0 +1,71 @@
+body {
+    background-color: #65a765;
+}
+
+h6 {
+    font-family: "Qwigley";
+    font-size: 75px;
+    font-weight: normal;
+}
+
+button {
+    display: inline;
+    background-color: #65a765;
+    border: 1px solid #508550;
+    width: 25%;
+    float: left;
+    font-family: "Sono";
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+button:hover {
+    background-color: #508550;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.top {
+    background-color: #65a765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+}
+
+.left-branch {
+    height: 150px;
+    transform: scaleX(-1) rotate(25deg);
+}
+
+.right-branch {
+    height: 150px;
+    transform: rotate(25deg);
+}
+
+.links {
+    width: 101.2%;
+    margin-left:-8px;
+}
+
+.home {
+    background-color: #a7a765;
+    width: 101.2%;
+    margin-left: -8px;
+    height: 500px;
+}
+
+.headshot {
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.intro {
+    background-color:#65a765;
+    width: 700px;
+    float: right;
+}
+
+
