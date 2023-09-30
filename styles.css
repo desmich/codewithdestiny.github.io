@@ -56,16 +56,20 @@ button:hover {
 }
 
 .headshot {
-    background-color: black;
     height: 400px;
     width: 300px;
-    margin-left: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
 }
 
 .intro {
     background-color:#65a765;
     width: 700px;
     float: right;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 
