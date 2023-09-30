@@ -52,7 +52,7 @@ button:hover {
     background-color: #a7a765;
     width: 101.2%;
     margin-left: -8px;
-    height: 500px;
+    height: 550px;
 }
 
 .headshot {
@@ -65,11 +65,22 @@ button:hover {
 
 .intro {
     background-color:#65a765;
-    width: 700px;
+    width: 400px;
     float: right;
     border-radius: 15px;
     text-align: center;
     margin-top: 25px;
+    margin-right: 100px;
 }
 
+.blurb {
+    font-weight: normal;
+}
 
+.intro-2 {
+    background-color:#65a765;
+    width: 700px;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+}
