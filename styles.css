@@ -91,8 +91,12 @@ button:hover {
     background-color: #65a765;
     width: 650px;
     text-align: center;
+    border-radius: 15px;
+    float: right;
+    margin-top: -175px;
+    margin-right: 110px;
 }
 
 .big-blurb {
-
+    
 }
