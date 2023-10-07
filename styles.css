@@ -66,11 +66,19 @@ button:hover {
 .intro {
     background-color:#65a765;
     width: 400px;
-    float: right;
+  /*  float: right; */
     border-radius: 15px;
     text-align: center;
-    margin-top: 40px;
-    margin-right: 225px;
+    margin: 5px;
+}
+
+.flexflex {
+  /*  background-color: black; START HERE*/
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40%;
 }
 
 .blurb {
@@ -82,9 +90,8 @@ button:hover {
     width: 650px;
     border-radius: 15px;
     text-align: center;
-    float: right;
-    margin-top: -300px;
-    margin-right: 110px;
+  /*  float: right; */
+    margin: 5px;
 }
 
 .intro-3 {
@@ -92,9 +99,8 @@ button:hover {
     width: 650px;
     text-align: center;
     border-radius: 15px;
-    float: right;
-    margin-top: -175px;
-    margin-right: 110px;
+ /*   float: right;*/
+    margin: 5px;
 }
 
 .big-blurb {
