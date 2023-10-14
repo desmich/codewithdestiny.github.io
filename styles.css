@@ -14,7 +14,7 @@ nav {
     background: #65a765;
 }
 
-a {
+.top-button {
     color: black;
     background: #65a765;
     width: 25%;
@@ -61,15 +61,15 @@ a:hover {
     background-color: #97a765; /*old color a7a765*/
     width: 101.2%;
     margin-left: -8px;
-    height: 550px;
+    height: 525px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .headshot {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: auto;
     margin-left: 40px;
     margin-top: 40px;
     border-radius: 15px;
@@ -81,6 +81,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 40px 50px;
+    justify-content: space-around;
 }
 
 .blurb {
@@ -93,6 +94,7 @@ a:hover {
     border-radius: 15px;
     text-align: center;
     margin: 15px;
+    font-family: "Nunito";
 }
 
 
@@ -102,6 +104,7 @@ a:hover {
     border-radius: 15px;
     text-align: center;
     margin: 15px;
+    font-family: "Nunito";
 }
 
 .intro-3 {
@@ -110,8 +113,21 @@ a:hover {
     text-align: center;
     border-radius: 15px;
     margin: 15px;
+    font-family: "Nunito";
 }
 
 .big-blurb {
     
+}
+
+.learn-more {
+    background-color: #65a765;
+    font-family: "Sono";
+    border-radius: 5px;
+}
+
+
+.bottom-button {
+    color: black;
+    text-decoration: none;
 }
