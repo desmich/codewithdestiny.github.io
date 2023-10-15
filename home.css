@@ -1,0 +1,129 @@
+body {
+    background-color: #65a765;
+}
+
+h6 {
+    font-family: "Qwigley";
+    font-size: 75px;
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #65a765;
+}
+
+.top-button {
+    color: black;
+    background: #65a765;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #508550;
+    font-family: "Sono";
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    padding: 1px 0;
+}
+
+a:hover {
+    background-color: #508550;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.top {
+    background-color: #65a765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+}
+
+.left-branch {
+    height: 150px;
+    transform: scaleX(-1) rotate(25deg);
+}
+
+.right-branch {
+    height: 150px;
+    transform: rotate(25deg);
+}
+
+.links {
+    width: 101.2%;
+    margin-left:-8px;
+}
+
+.home {
+    background-color: #97a765; /*old color a7a765*/
+    width: 101.2%;
+    margin-left: -8px;
+    height: 525px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headshot {
+    height: 450px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.flexflex {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 50px;
+    justify-content: space-around;
+}
+
+.blurb {
+    font-weight: normal;
+}
+
+.intro {
+    background-color:#65a765;
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+    font-family: "Nunito";
+}
+
+
+.intro-2 {
+    background-color:#65a765;
+    width: 650px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+    font-family: "Nunito";
+}
+
+.intro-3 {
+    background-color: #65a765;
+    width: 650px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    font-family: "Nunito";
+}
+
+.learn-more {
+    background-color: #65a765;
+    font-family: "Sono";
+    border-radius: 5px;
+}
+
+
+.bottom-button {
+    color: black;
+    text-decoration: none;
+}
