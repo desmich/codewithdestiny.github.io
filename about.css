@@ -1,5 +1,5 @@
 body {
-    background-color: #65a765;
+    background-color: #97a765;
 }
 
 h6 {
@@ -39,7 +39,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 130px;
-    width: 100%;
+    width: 101.2%;
+    margin: -8px;
 }
 
 .left-branch {
@@ -65,4 +66,14 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.background {
+    background-color: white;
+    font-family: "Nunito";
+    display: flex;
+}
+
+h2 {
+    font-weight: normal;
 }
