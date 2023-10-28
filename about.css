@@ -113,7 +113,6 @@ a:hover {
 }
 
 .flexflex3 {
-    background-color: orange;
     width: 27%;
     display: flex;
     flex-direction: row;
