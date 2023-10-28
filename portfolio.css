@@ -67,31 +67,3 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
 }
-
-.flexflex {
-    background-color: black;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 40px 50px;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.background {
-    background-color: white;
-    font-family: "Nunito";
-    height: 100px;
-    width: 128px;
-}
-
-.hobbies {
-    background-color: white;
-    font-family: "Nunito";
-    height: 100px;
-    width: 128px;
-}
-
-h2 {
-    font-weight: normal;
-}
