@@ -17,7 +17,7 @@ nav {
 .top-button {
     color: black;
     background: #65a765;
-    width: 25%;
+    width: 34%;
     text-align: center;
     border: 1px solid #508550;
     font-family: "Sono";
@@ -106,6 +106,12 @@ a:hover {
     justify-content: space-around;
 }
 
+.contact {
+    background-color: black;
+    width: 200px;
+    height: auto;
+}
+
 .flexflex3 {
     background-color: orange;
     width: 27%;
@@ -125,6 +131,7 @@ a:hover {
     text-align: center;
     border-radius: 5px;
     padding: 5px 0px;
+    margin-bottom: 20px;
 }
 
 .goals {
@@ -134,12 +141,7 @@ a:hover {
     width: 405px;
     text-align: center;
     border-radius: 5px;
-}
-
-.contact {
-    background-color: black;
-    width: 405px;
-    height: auto;
+    margin-bottom: 20px;
 }
 
 h2 {
