@@ -125,7 +125,6 @@ a:hover {
     text-align: center;
     border-radius: 5px;
     padding: 5px 0px;
-    margin-top: -35px;
 }
 
 .goals {
@@ -135,7 +134,6 @@ a:hover {
     width: 405px;
     text-align: center;
     border-radius: 5px;
-    margin-top: -15px;
 }
 
 .contact {
@@ -163,4 +161,8 @@ h2 {
 
 .underline {
     text-decoration: underline;
+}
+
+i {
+    color: #65a765;
 }
