@@ -3,10 +3,33 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-size: 2.34vw;
+}
+
+h2 {
+    font-size: 1.8vw;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
 h6 {
     font-family: "Qwigley";
-    font-size: 75px;
+    font-size: 5.5vw;
     font-weight: normal;
+}
+
+a {
+    font-size: 1.2vw;
+}
+
+li {
+    font-size: 1.2vw;
 }
 
 nav {
@@ -23,8 +46,8 @@ nav {
     text-align: center;
     border: 1px solid #508550;
     font-family: "Sono";
-    font-size: 20px;
-    letter-spacing: 5px;
+    font-size: 1.5vw;
+    letter-spacing: 0.4vw;
     text-decoration: none;
     padding: 1px 0;
 }
@@ -40,18 +63,18 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 130px;
+    height: 18.9vh;
     width: 101.2%;
     margin: -8px;
 }
 
 .left-branch {
-    height: 150px;
+    height: 21.8vh;
     transform: scaleX(-1) rotate(25deg);
 }
 
 .right-branch {
-    height: 150px;
+    height: 21.8vh;
     transform: rotate(25deg);
 }
 
@@ -64,7 +87,7 @@ a:hover {
     background-color: #97a765; /*old color a7a765*/
     width: 101.2%;
     margin-left: -8px;
-    height: 525px;
+    height: 76.2vh;
     display: flex;
     flex-direction: row;
 }
@@ -83,7 +106,7 @@ a:hover {
     background-color: #65a765;
     font-family: "Nunito";
     height: auto;
-    width: 405px;
+    width: 29.6vw;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -93,7 +116,7 @@ a:hover {
     background-color: #65a765;
     font-family: "Nunito";
     height: auto;
-    width: 405px;
+    width: 29.6vw;
     text-align: center;
     border-radius: 5px;
 }
@@ -128,7 +151,7 @@ a:hover {
     background-color: #65a765;
     font-family: "Nunito";
     height: auto;
-    width: 405px;
+    width: 29.6vw;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0px;
@@ -139,16 +162,10 @@ a:hover {
     background-color: #65a765;
     font-family: "Nunito";
     height: auto;
-    width: 405px;
+    width: 29.6vw;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 20px;
-}
-
-h2 {
-    font-weight: normal;
-    text-decoration: underline;
-    margin: 5px;
 }
 
 .work-ex ul {
